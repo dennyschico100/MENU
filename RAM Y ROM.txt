@@ -1,0 +1,47 @@
+MICROPOCESAORES 
+INTEL AMD
+FUNCIONAN CON GH ASI ES COMO SON JUSGADAS
+ADEMAS DE LOS CORES O NUCLEOS 
+LOS GZ ES LA VELOCIDAD A LA QUE PROCESN UNA INSTRUCCION
+CORES : CUANTAS INSTRUCCIONES EN PARALELOS PUEDEN HACER
+
+LOS MICRO ES TAN HECHOS DE SILICIO EL CUAL ES UN SEMICONDUCTOR (GRAFENO ES OTRO)
+MEMORIA CACHE: es una especia de memoria ram super veloz y se guardan ciertos programas que se guardan en tiempo real
+normalmente se guardan programas que estan corriendo en este momento las instruccines que se necesitan que se ejecuten de 
+manera inmediata  
+Entonces, al elegir tu dispositivo, es más importante escoger el que tenga el mayor número de núcleos,
+ sobre el que tenga mayor velocidad de procesador. Por ejemplo, una laptop con procesador Quad Core (4 núcleos) a 1 Ghz es mucho más rápida que otra con un procesador Core Duo (dos núcleos) a 2.7 ghz. 
+El proceso de fabricación de un microprocesador es muy complejo. El silicio necesario para construirlo suele extraerse de la arena (compuesta básicamente de cuarzo, o sea dióxido de silicio), con el que se fabrica un monocristal de unos 20 x 150 centímetros. Para ello, se funde el material en cuestión a alta temperatura (1370 °C) 
+y muy lentamente (10 a 40 mm por hora) y así se va formando el cristal
+---
+
+
+El proceso de fabricación de un microprocesador es muy complejo. El silicio necesario para construirlo suele extraerse de la 
+arena (compuesta básicamente de cuarzo, o sea dióxido de silicio), con el que se fabrica un monocristal de unos 20 x 150 centímetros. 
+Para ello, se funde el material en cuestión a alta temperatura (1370 °C) 
+y muy lentamente (10 a 40 mm por hora) y así se va formando el cristal
+
+---
+
+LA RAM ES UNA MEMORIA DE ULTRA ALTA VELOCIDAD XQ ES TAN VELOZ PORQUE ES MEMORIA BOLATIL(SOLO FUNCIONA CUANDO
+
+HAY ELECTRICIDAD)
+
+
+PORQUE LOS DISCOS DUROS SON MAS LENTOS (GRAFICO )
+
+SSD  XQ NO TIENNE PARTES MOVILES !! SINO QUE TIENE UN CHIP ESPECIAL QUE ES UN  CHIP IGUAL A LAS USB
+
+GRAFICO...
+
+LA MEMORIA RAM esta formada por circuitos y transistores que estan dividos en placas paralelas
+
+DRIVES son piesas de softwasre que entienden  como convetir las señales electricasd del hardware
+
+
+
+
+GPU SE ENCARGA DE COMUNICARSE ENTRE LA PANTALLA Y LA CPU
+EL CPU LE dice a la gpu te voy a mandar estos datos y vos los mostras
+
+

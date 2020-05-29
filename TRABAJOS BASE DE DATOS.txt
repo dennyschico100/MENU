@@ -1,0 +1,130 @@
+/*1:21 1 hota
+desanilitar proxy y activar cors*/
+
+CREATE DATABASE TRABAJOS;
+
+USE TRABAJOS;
+
+CREATE TABLE usuarios(
+id_usuario int identity,
+nombres varchar(100),
+apellidos varchar(100),
+email varchar(100) unique,
+contraseña varchar(300),
+contraseña2 varchar(300), 
+nacionalidad varchar(20),
+telefono varchar(15),
+estado int ,
+created_at DATETIME NOT NULL
+                DEFAULT CURRENT_TIMESTAMP,
+PRIMARY KEY(id_usuario)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+INSERT INTO HABILIDADES (desc)
+values('')
+
+CREATE TABLE roles(
+id_rol int identity ,
+descripcion varchar(30),
+PRIMARY KEY(id_rol)
+);
+
+CREATE TABLE usuario_roles(
+id int identity,
+id_rol int , 
+id_usuario int, 
+PRIMARY KEY(id)
+);
+
+drop table empresa;
+
+CREATE TABLE empresa(
+id_empresa  int identity,
+id_usuario int ,
+no_registro int  unique , 
+nombre_empresa varchar(100) unique ,
+area_empresa varchar(30) ,
+sitio_web varchar(100) unique,
+logo varchar(500),
+estado int ,
+created_at DATETIME NOT NULL
+                DEFAULT CURRENT_TIMESTAMP,
+PRIMARY KEY(id_empresa)
+
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+drop table oferta_empleo;
+{
+			"id_empresa"  : 1  ,
+            "nombre_empresa" : "empresa 200",
+            "area_empresa"   : "informatica",
+            "titulo_oferta"   : "progrmador angular",
+            "cargo_solicitado"   : " Programador frontend ",
+            "puestos_vacantes"   : 4,
+            "tipo_de_contratacion"   : "timepo completo",	
+            "nivel_de_experiencia"   : " minino un año ",	
+            "genero"  : 1  , 
+            "edad"   : " 18 - 35 años ",
+            "salario_maximo"   : 800 , 	
+            "salario_minimo"   : 1000,
+            "vehiculo"    : "no",
+            "pais" : "EL SALVADOR"  ,
+           "departamento"  :"santa ana",
+            "estado"    :  1,
+            "expiracion"   :  "2020-01-01"
+}  
+
+
+http://localhost:8080/trabajos/api/test/user
+GET
+
+
+
+//////////////////////////
+CREATE TABLE oferta_empleo(
+id int identity ,
+id_empresa int ,
+nombre_empresa varchar(100) ,
+area_empresa varchar(20),
+titulo_oferta varchar(100),
+cargo_solicitado varchar(50),
+puestos_vacantes	int ,
+tipo_de_contratación varchar(20),	
+nivel_de_experiencia varchar(20),	
+género int, 
+edad VARCHAR(100), x
+salario_máximo int , 	
+salario_minimo int,
+vehículo  varchar(2),
+pais varchar(40),
+departamento varchar(40),
+estado int , 
+expiracion date, 
+created_at TIMESTAMP DEFAULT  CURRENT_TIMESTAMP
+PRIMARY KEY (id,id_empresa)
+);
+//SQL
+//created_at DATETIME NOT NULL
+                DEFAULT CURRENT_TIMESTAMP,
+
+
+CREATE TABLE aplicaciones(
+id int identity ,
+id_oferta int ,
+titulo_oferta varchar(100),
+nombre_empresa varchar(100) REFERENCES empresa(nombre_empresa),
+id_usuario int REFERENCES usuarios(id_usuario),
+logo varchar(500),
+created_at DATETIME NOT NULL
+                DEFAULT CURRENT_TIMESTAMP,
+PRIMARY KEY(id)
+);
+
+CREATE TABLE favoritos(
+id int identity,
+id_usuario int ,
+id_oferta int  ,   
+PRIMARY KEY(id_usuario,id_oferta)
+);
+
+

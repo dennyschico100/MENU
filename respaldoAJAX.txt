@@ -1,0 +1,22 @@
+                 
+<script type="text/javascript">
+    $(document).ready(function () {
+        
+        $("#consulta").on("click",function () {
+        alert("click");  
+        var consulta1 = $("#consulta1").val();//id of country select box of index.jsp page;
+             $.ajax({
+                    url:"vistas/reservaciones/index.jsp",//your servlet or jsp page name.
+                    method:"GET",//HTTP method.
+                    data:{consulta1:consulta1},//sending request to DisplayText.java page.
+                    success:function(data)
+                    {
+                        //$("#success").html(data);//output or response will display in success div.
+                        //$("#form").trigger("reset");//this will reset the form.
+                    }
+                });
+            // check if country select box have blank or null value.
+            
+        });
+    });
+</script>

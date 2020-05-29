@@ -1,0 +1,78 @@
+PASARUN DATO POR GET EN LARAVE USANDDO UNA RUTA
+PRUENAS AUTOMATIZADA
+Crear Controlador
+
+
+Node.js is an open-source server-side Javascript run-time environment built on Chrome’s JavaScript Engine(V8).
+ Node.js is used for building fast and scalable applications and is an event driven, 
+non-blocking I/O model. Node.js files have .js extension and contain only Javascript. It’s original author is Ryan Dahl and was initially released on May 27, 2009. With the birth of Node.js,
+ it brings users the facility to built completely Javascript based applications.
+IMPORTANT BACKGROUND #f3f7f7
+WEB SERVICE SOAP REST
+APP INNVERTOR.COM
+sketch diseñlo adobe xd
+imprimir
+variables
+bucles
+var_dump
+intval
+<=> Nave..
+:string,int 
+declare();
+isset
+
+GRADIENT 
+#ddd6f3 #faaca8 
+#50c9c3  #96deda
+#c21500  #ffc500
+#de6262  #ffb88c
+#dc2424 #4a569d
+#ff512f
+#dd2476
+#f857a6 #ff5858
+
+
+    transform:skewX(34deg); 
+  background-color: transparent;
+  border-radius: 50%;
+  box-shadow: 25px 10px 0px 0px blue;
+
+
+JAVASCRIPT
+TOGGLE
+Instance OF
+==, ===
+Typeof
+Create an object
+Date();
+Sumar y restar fechas
+Map.
+background: linear-gradient(35deg, #ccffff, #ffcccc);
+String.substr(,);
+String.indexOf("");
+Str.Replace
+Reverse
+FOREACH
+Class full example
+
+function()();
+	
+Replace a arary item
+JSON and the 2 methods
+Date add 
+
+Map vs Set
+
+const array[ , , ];
+function()();
+Bind
+Object.freeze();
+= () =>
+||  asignar valo por defecto carpteta javasript
+OBTENER EL ULTIMO ELEMENTO DE UN AREGLO
+nombres.slice(-1);
+
+		
+
+
+Detect Browser name

@@ -1,0 +1,11 @@
+{
+    "nombres": "ddddddddddddd",
+    "apellidos": "cccccccccc",
+    "email": "asdf@gmail.com",
+    "contraseña": "123456",
+    "contraseña2": "123456",
+ "nacionalidad": "san slavador"
+    "telefono": 88887777,
+    "estado": 1,
+   "roles": ["user"]
+}
